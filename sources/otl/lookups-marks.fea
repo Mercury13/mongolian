@@ -8,7 +8,8 @@
 @hag_mag.bases = [@hag_mag.variants @hag_mag.ligatures];
 
 lookup Ib.marks.posit {
-    markClass [baluda tribaluda dagalga] <anchor 0 0> @mong;
+    markClass [baluda tribaluda] <anchor 0 0> @mong;
+    markClass [dagalga] <anchor 0 0> @daga;
     position base [@hag_mag.bases uni25CC] <anchor 0 0> mark @mong;
 } Ib.marks.posit;
 
